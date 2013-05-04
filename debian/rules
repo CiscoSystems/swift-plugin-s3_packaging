@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+UPSTREAM_GIT := git://github.com/CiscoSystems/swift-plugin-s3.git
+
+#include /usr/share/openstack-pkg-tools/pkgos.make
+
+GIT_TAG := v$(shell echo '$(VERSION)' | sed -e 's/~/_/')
+
+%:
+	dh $@  --with python2
+
+override_dh_auto_test:
+	set -e ; for pyversion in $(shell pyversions -r); do $$pyversion setup.py test; done

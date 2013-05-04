@@ -1,0 +1,23 @@
+swift-plugin-s3 (1.7-4) grizzly; urgency=low
+
+  * Bump and rebuild
+
+ -- Chris Ricker <chricker@cisco.com>  Fri, 03 May 2013 15:04:21 -0400
+
+swift-plugin-s3 (1.7-3) grizzly; urgency=low
+
+  * Update rules file
+
+ -- Chris Ricker <chricker@cisco.com>  Thu, 02 May 2013 19:31:40 -0400
+
+swift-plugin-s3 (1.7-2) grizzly; urgency=low
+
+  * Initial build for COE
+
+ -- Chris Ricker <chricker@cisco.com>  Thu, 02 May 2013 15:32:11 -0400
+
+swift-plugin-s3 (1.7-1) experimental; urgency=low
+
+  * Initial release (Closes: #693137).
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 13 Nov 2012 14:05:57 +0000
